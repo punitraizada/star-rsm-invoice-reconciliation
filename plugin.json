@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "star-rsm-invoice-reconciliation",
+  "version": "1.0.0",
+  "description": "Reconcile STAR session-log CSVs and RSM invoice exports at the session level.",
+  "repository": "https://github.com/punitraizada/star-rsm-invoice-reconciliation",
+  "keywords": [
+    "invoice-reconciliation",
+    "csv",
+    "xls",
+    "billing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "STAR–RSM Invoice Reconciliation",
+        "shortDescription": "Reconcile STAR and RSM invoices",
+        "longDescription": "Compare STAR session logs with RSM invoice exports and surface duplicate slots, missing sessions, count mismatches, and amount discrepancies.",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": [
+          "Use the STAR–RSM Invoice Reconciliation plugin to compare my STAR session log and RSM invoice export."
+        ]
+      }
+    }
+  }
+}

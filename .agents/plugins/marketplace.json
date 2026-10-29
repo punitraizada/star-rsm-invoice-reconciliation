@@ -1,0 +1,20 @@
+{
+  "name": "star-rsm-invoice-reconciliation",
+  "interface": {
+    "displayName": "STAR–RSM Plugins"
+  },
+  "plugins": [
+    {
+      "name": "star-rsm-invoice-reconciliation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/star-rsm-invoice-reconciliation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

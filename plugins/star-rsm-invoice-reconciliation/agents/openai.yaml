@@ -1,0 +1,4 @@
+interface:
+  display_name: "STAR–RSM Reconciliation"
+  short_description: "Reconcile STAR and RSM invoices"
+  default_prompt: "Use $star-rsm-invoice-reconciliation to compare a STAR session log with an RSM invoice export."
